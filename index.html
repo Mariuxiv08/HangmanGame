@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"> -->
+		<script type="text/javascript" src="assets/javascript/game.js"></script>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css"></link>
+
+		<title>Hangman Game!</title>
+	</head>
+	<body>
+		<div class="container">
+		  <div class="row">
+		    <div class="col-md">
+		      <h1>Welcome to Hangman!</h1>
+		      <h3>Choose your letter from the alphabet below!</h3>
+		    </div>
+		  </div>
+		</div>
+		<div class="container">
+		  <div class="row">
+		    <div class="col-md-6 leftOption">
+		    	<p id="categoryToPlay"></p>
+		    	<div id="buttons">
+		    	</div>
+		    </div>
+		    <div class="col-md-6 rightOption">
+		      	<h3>Progress</h3>
+		      <div id="holder"></div>
+		    </div>
+		  </div>
+		 </div>
+		    	<div class="container">
+		  			<div class="row">
+		    			<div class="col-md">
+							 <p id="lives"></p>  
+     						<canvas id="stickman"></canvas>
+     					</div>
+     				</div>
+     			</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md">
+						 	<button id="reset">Play again</button>
+						 </div>
+					</div>
+				</div>
+		    </div>
+		</div>
+	</div>
+	</body>
+</html>
